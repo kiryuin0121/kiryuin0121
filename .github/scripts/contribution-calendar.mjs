@@ -125,7 +125,7 @@ function render(calendar, theme) {
   } ${last.getUTCDate()}, ${last.getUTCFullYear()}`;
 
   parts.push(
-    `<text x="${PAD}" y="${PAD + 13}" class="title">My contributions</text>`,
+    `<text x="${PAD}" y="${PAD + 13}" class="title">Contributions in the last year</text>`,
     `<text x="${width - PAD}" y="${PAD + 13}" class="lbl" text-anchor="end">${esc(range)}</text>`
   );
 
@@ -234,7 +234,7 @@ function render(calendar, theme) {
   });
   parts.push(`<text x="${moreX}" y="${legendY + 9}" class="lbl" text-anchor="end">More</text>`);
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="My contributions">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="Contributions in the last year">
   <style>
     .lbl { font: 400 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: ${t.text}; }
     .title { font: 600 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: ${t.title}; }
