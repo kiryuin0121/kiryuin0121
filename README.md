@@ -1,7 +1,7 @@
 <!--
   ▸ このファイルを自分のユーザー名と同名のリポジトリ（special repository）の
     README.md として配置してください。
-  ▸ 下の YOUR_USERNAME をすべて自分のGitHubユーザー名に置き換えてください。
+  ▸ 下の kiryuin0121 をすべて自分のGitHubユーザー名に置き換えてください。
 -->
 
 <!-- ============ ヘッダー：タイピングアニメーション ============ -->
@@ -14,7 +14,7 @@
 <!-- ============ プロフィールビューカウンター ============ -->
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=Profile%20Views&color=61DAFB&style=for-the-badge)
+![Profile Views](https://komarev.com/ghpvc/?username=kiryuin0121&label=Profile%20Views&color=61DAFB&style=for-the-badge)
 
 </div>
 
@@ -61,14 +61,14 @@ const developer = {
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=react&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=61DAFB&icon_color=61DAFB" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&langs_count=8&theme=react&hide_border=true&bg_color=0D1117&title_color=61DAFB" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=kiryuin0121&show_icons=true&theme=react&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=61DAFB&icon_color=61DAFB" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kiryuin0121&layout=compact&langs_count=8&theme=react&hide_border=true&bg_color=0D1117&title_color=61DAFB" />
 
 </div>
 
 <div align="center">
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=YOUR_USERNAME&theme=react&hide_border=true&background=0D1117&ring=61DAFB&fire=61DAFB&currStreakLabel=61DAFB)
+![GitHub Streak](https://streak-stats.demolab.com/?user=kiryuin0121&theme=react&hide_border=true&background=0D1117&ring=61DAFB&fire=61DAFB&currStreakLabel=61DAFB)
 
 </div>
 
@@ -79,7 +79,7 @@ const developer = {
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=kiryuin0121&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
@@ -90,7 +90,7 @@ const developer = {
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=react-dark&hide_border=true&bg_color=0D1117&color=61DAFB&line=61DAFB&point=FFFFFF)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kiryuin0121&theme=react-dark&hide_border=true&bg_color=0D1117&color=61DAFB&line=61DAFB&point=FFFFFF)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
@@ -105,7 +105,7 @@ const developer = {
 
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake-dark.svg)
+![Snake animation](https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/output/github-contribution-grid-snake-dark.svg)
 
 </div>
 
@@ -116,8 +116,8 @@ const developer = {
 
 <div align="center">
 
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOUR_USERNAME)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_USERNAME)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/kiryuin0121)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kiryuin0121)
 
 </div>
 
