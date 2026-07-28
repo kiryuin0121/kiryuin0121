@@ -13,6 +13,8 @@
 
 ---
 
+<br/>
+
 ### 💪 Tech Stack
 
 <br/>
@@ -28,6 +30,8 @@
 <br/>
 
 ---
+
+<br/>
 
 ### 🏆 Contest Achievements
 
@@ -74,6 +78,8 @@
 
 ---
 
+<br/>
+
 ### 💻 Contributions
 
 <br/>
@@ -86,6 +92,8 @@
 <br/>
 
 ---
+
+<br/>
 
 ### 🥒 My Links
 
