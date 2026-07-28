@@ -3,7 +3,7 @@
 
 <img src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/main/assets/header.png" alt="header" width="100%" />
 
-### Hi, I'm kiryuin0121 &nbsp;👋
+### Hi, I'm KiryuYokohata(@kiryuin0121)&nbsp;👋
 
 <!-- profile: EN line1 → EN line2 (held) → JP line1 → JP line2 (stops on JP) -->
 <picture>
