@@ -15,6 +15,8 @@
 
 ### 💪 Tech Stack
 
+<br/>
+
 <a href="https://react.dev" title="React"><img src="https://skillicons.dev/icons?i=react&theme=dark" height="44" alt="React" /></a>
 <a href="https://nextjs.org" title="Next.js"><img src="https://skillicons.dev/icons?i=nextjs&theme=dark" height="44" alt="Next.js" /></a>
 <a href="https://www.typescriptlang.org" title="TypeScript"><img src="https://skillicons.dev/icons?i=ts&theme=dark" height="44" alt="TypeScript" /></a>
@@ -23,12 +25,14 @@
 <a href="https://www.prisma.io" title="Prisma"><img src="https://skillicons.dev/icons?i=prisma&theme=dark" height="44" alt="Prisma" /></a>
 <a href="https://bun.sh" title="Bun"><img src="https://skillicons.dev/icons?i=bun&theme=dark" height="44" alt="Bun" /></a>
 
+<br/>
+
 ---
 
 ### 🏆 Contest Achievements
 
-<!-- カードを追加する場合は <td> ブロックを1つコピーして、画像・リポジトリ名・コンテスト名・賞・年月を差し替える -->
-<!-- サムネイルは assets/<リポジトリ名>.png に配置 -->
+<br/>
+
 <table>
 <tr>
 
@@ -66,18 +70,26 @@
 </tr>
 </table>
 
+<br/>
+
 ---
 
 ### 💻 Contributions
+
+<br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/output/contribution-calendar-dark.svg" />
   <img alt="contribution calendar" src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/output/contribution-calendar.svg" />
 </picture>
 
+<br/>
+
 ---
 
 ### 🥒 My Links
+
+<br/>
 
 <img src="https://skillicons.dev/icons?i=gmail&theme=dark" height="20" alt="Gmail" valign="middle" />&nbsp;&nbsp;[kiryuin0121@gmail.com](mailto:kiryuin0121@gmail.com)
 <br />
