@@ -45,7 +45,7 @@
 </td>
 
 <td align="center" width="33%">
-<a href="https://github.com/kiryuin0121/HALLO"><img src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/main/assets/HALLO.png" width="100%" alt="HALLO" /></a><br />
+<a href="https://youtu.be/IIfQS8c1_UU"><img src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/main/assets/HALLO.png" width="100%" alt="HALLO" /></a><br />
 <b>HAL EVENT WEEK 2026</b><br />
 🥇 金賞<br />
 <sub>2026.03</sub>
