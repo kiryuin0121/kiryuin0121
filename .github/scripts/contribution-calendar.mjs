@@ -60,7 +60,7 @@ const HEAD_H = 26; // 「N contributions in the last year」
 const LEGEND_H = 26;
 
 // アニメーション
-const STEP_SEC = 0.07; // 1 マス進むのにかかる秒数
+const STEP_SEC = 0.09; // 1 マス進むのにかかる秒数
 const SNAKE_LEN = 5; // ヘビの長さ（マス）
 const TAIL_STEPS = 10; // 食べ終わったあと画面外へ抜けるぶん
 
@@ -202,19 +202,24 @@ function render(calendar, theme) {
   });
 
   // ヘビ本体
-  const pathD = `M${pathPoints.map(([x, y]) => `${x},${y}`).join("L")}`;
-  parts.push(`<path id="snake-path" d="${pathD}" fill="none" stroke="none"/>`);
+  // mpath 参照は img として読み込まれた SVG で無視される環境があるため、
+  // animateMotion に path を直接持たせる。さらに始点基準の相対パスにして、
+  // 万一アニメーションが効かなくても正しい位置に描画されるようにする。
+  const [ox, oy] = pathPoints[0];
+  const pathD = `M${pathPoints.map(([x, y]) => `${(x - ox).toFixed(1)},${(y - oy).toFixed(1)}`).join("L")}`;
   for (let i = 0; i < SNAKE_LEN; i++) {
-    const size = CELL - i * 0.9;
-    const off = -size / 2;
-    // 先頭を最も進んだ状態にするため、後続ほど負の begin を小さくする
+    const size = CELL + 1 - i * 0.8;
+    // 先頭ほど負の begin が大きい ＝ 先行して進む
     const begin = (-(SNAKE_LEN - i) * STEP_SEC).toFixed(3);
     parts.push(
-      `<rect x="${off.toFixed(2)}" y="${off.toFixed(2)}" width="${size.toFixed(2)}" height="${size.toFixed(
+      `<rect x="${(ox - size / 2).toFixed(2)}" y="${(oy - size / 2).toFixed(2)}" width="${size.toFixed(
         2
-      )}" rx="${(size / 3).toFixed(2)}" fill="${t.snake}" opacity="${(1 - i * 0.13).toFixed(2)}">` +
-        `<animateMotion dur="${dur}s" begin="${begin}s" repeatCount="indefinite" calcMode="linear">` +
-        `<mpath href="#snake-path" xlink:href="#snake-path"/></animateMotion></rect>`
+      )}" height="${size.toFixed(2)}" rx="${(size / 3).toFixed(2)}" fill="${t.snake}" opacity="${(
+        1 -
+        i * 0.12
+      ).toFixed(2)}">` +
+        `<animateMotion dur="${dur}s" begin="${begin}s" repeatCount="indefinite" calcMode="linear" path="${pathD}"/>` +
+        `</rect>`
     );
   }
 
@@ -231,7 +236,7 @@ function render(calendar, theme) {
   });
   parts.push(`<text x="${moreX}" y="${legendY + 9}" class="lbl" text-anchor="end">More</text>`);
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="${esc(
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="${esc(
     `${calendar.totalContributions} contributions in the last year`
   )}">
   <style>
