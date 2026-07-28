@@ -21,10 +21,35 @@
 
 ### Contributions
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/output/github-contribution-grid-snake-dark.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/output/github-contribution-grid-snake.svg" />
-</picture>
+<div style="display:inline-block;padding:8px;border:1px solid rgba(230,237,243,0.12);border-radius:8px">
+  <div style="display:flex;align-items:center;gap:8px;font-size:12px;color:#9aa4b2;margin-bottom:8px">
+    <strong style="color:inherit">Months:</strong>
+    <div style="display:flex;gap:8px;flex-wrap:wrap">
+      <span>Jan</span>
+      <span>Feb</span>
+      <span>Mar</span>
+      <span>Apr</span>
+      <span>May</span>
+      <span>Jun</span>
+      <span>Jul</span>
+      <span>Aug</span>
+      <span>Sep</span>
+      <span>Oct</span>
+      <span>Nov</span>
+      <span>Dec</span>
+    </div>
+  </div>
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/output/github-contribution-grid-snake-dark.svg" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/output/github-contribution-grid-snake.svg" style="display:block;border:1px solid rgba(0,0,0,0.06);border-width:1px;border-radius:6px" />
+  </picture>
+
+  <div style="font-size:12px;color:#8892a6;margin-top:8px;line-height:1.4">
+    色の濃さは貢献回数を示します。日付や詳細は GitHub 上でカレンダーにホバーすると確認できます。
+    フルカレンダーはこちら: <a href="https://github.com/kiryuin0121">github.com/kiryuin0121</a>
+  </div>
+</div>
 
 ---
 
