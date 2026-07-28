@@ -1,7 +1,7 @@
 <!-- README.md — 自分のユーザー名と同名のリポジトリ直下に配置してください -->
 <!-- profile.svg も同じリポジトリの assets/ に置いてください -->
 
-<img src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/main/assets/footer.png" alt="footer" width="100%" height="100" style="object-fit: cover;" />
+<img src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/main/assets/header.png" alt="header" width="100%" height="100" style="object-fit: cover;" />
 
 ### Hi, I'm kiryuin0121 &nbsp;👋
 
