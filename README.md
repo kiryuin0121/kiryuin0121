@@ -31,30 +31,31 @@
 <tr>
 
 <td align="center" width="33%">
-<a href="https://github.com/kiryuin0121/DEATHNOTE">
-<img src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/main/assets/DEATHNOTE.png" width="100%" alt="DEATHNOTE" /><br />
+<a href="https://github.com/kiryuin0121/DEATHNOTE"><img src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/main/assets/DEATHNOTE.png" width="100%" alt="DEATHNOTE" /></a><br />
 <b>3校舎合同コンテスト</b><br />
 🥈 銀賞<br />
 <sub>2025.10</sub>
-</a>
 </td>
 
 <td align="center" width="33%">
-<a href="https://github.com/kiryuin0121/SAUVAGE">
-<img src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/main/assets/SAUVAGE.webp" width="100%" alt="SAUVAGE" /><br />
+<a href="https://github.com/kiryuin0121/SAUVAGE"><img src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/main/assets/SAUVAGE.webp" width="100%" alt="SAUVAGE" /></a><br />
 <b>3校舎合同コンテスト</b><br />
 🥈 銀賞<br />
 <sub>2026.03</sub>
-</a>
 </td>
 
 <td align="center" width="33%">
-<a href="https://github.com/kiryuin0121/HALLO">
-<img src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/main/assets/HALLO.png" width="100%" alt="HALLO" /><br />
+<a href="https://github.com/kiryuin0121/HALLO"><img src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/main/assets/HALLO.png" width="100%" alt="HALLO" /></a><br />
 <b>HAL EVENT WEEK 2026</b><br />
 🥇 金賞<br />
 <sub>2026.03</sub>
-</a>
+</td>
+
+<td align="center" width="33%">
+<a href="https://magicalmirai.com/2026/procon/2026_finalist_applications/007_Mizuumi_no_Utahime/"><img src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/main/assets/Mizuumi_no_Utahime.png" width="100%" alt="湖のうたひめ" /></a><br />
+<b>マジカルミライ 2026 プログラミング・コンテスト</b><br />
+入選<br />
+<sub>2026.07</sub>
 </td>
 
 </tr>
