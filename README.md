@@ -42,14 +42,14 @@
 
 <td align="center" width="33%">
 <a href="https://github.com/kiryuin0121/DEATHNOTE"><img src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/main/assets/DEATHNOTE.png" width="100%" alt="DEATHNOTE" /></a><br />
-<b>3校舎合同コンテスト(1年生 前期)</b><br />
+<b>3校舎合同コンテスト(1年生前期)</b><br />
 🥈 銀賞<br />
 <sub>2025.10</sub>
 </td>
 
 <td align="center" width="33%">
 <a href="https://github.com/kiryuin0121/SAUVAGE"><img src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/main/assets/SAUVAGE.webp" width="100%" alt="SAUVAGE" /></a><br />
-<b>3校舎合同コンテスト(1年生 後期)</b><br />
+<b>3校舎合同コンテスト(1年生後期)</b><br />
 🥈 銀賞<br />
 <sub>2026.03</sub>
 </td>
