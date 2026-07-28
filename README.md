@@ -1,127 +1,31 @@
-<!--
-  ▸ このファイルを自分のユーザー名と同名のリポジトリ（special repository）の
-    README.md として配置してください。
-  ▸ 下の kiryuin0121 をすべて自分のGitHubユーザー名に置き換えてください。
--->
+<!-- README.md — 自分のユーザー名と同名のリポジトリ直下に配置してください -->
+<!-- profile.svg も同じリポジトリの assets/ に置いてください -->
 
-<!-- ============ ヘッダー：タイピングアニメーション ============ -->
-<div align="center">
+### Hi, I'm kiryuin0121 &nbsp;👋
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=32&pause=1000&color=61DAFB&center=true&vCenter=true&width=600&height=80&lines=Hello%2C+World!+%F0%9F%91%8B;Welcome+to+my+profile;Frontend+%2F+3D+Web+Developer)](https://git.io/typing-svg)
-
-</div>
-
-<!-- ============ プロフィールビューカウンター ============ -->
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=kiryuin0121&label=Profile%20Views&color=61DAFB&style=for-the-badge)
-
-</div>
+<!-- profile: EN line1 → EN line2 (held) → JP line1 → JP line2 (stops on JP) -->
+<img src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/main/assets/profile.svg" alt="profile" width="680" />
 
 ---
 
-<!-- ============ About Me ============ -->
-## 🚀 About Me
+### Tech Stack
 
-```typescript
-const developer = {
-  role: "Frontend / 3D Web Developer",
-  code: ["TypeScript", "React", "Next.js"],
-  interests: ["WebGL", "3D Graphics", "UI/UX"],
-  currentlyLearning: "React Three Fiber",
-  runtime: "Bun 🥟",
-};
-```
+<a href="https://react.dev" title="React"><img src="https://skillicons.dev/icons?i=react&theme=dark" height="44" alt="React" /></a>
+<a href="https://nextjs.org" title="Next.js"><img src="https://skillicons.dev/icons?i=nextjs&theme=dark" height="44" alt="Next.js" /></a>
+<a href="https://www.typescriptlang.org" title="TypeScript"><img src="https://skillicons.dev/icons?i=ts&theme=dark" height="44" alt="TypeScript" /></a>
+<a href="https://r3f.docs.pmnd.rs" title="React Three Fiber"><img src="https://skillicons.dev/icons?i=threejs&theme=dark" height="44" alt="React Three Fiber" /></a>
+<a href="https://tailwindcss.com" title="Tailwind CSS"><img src="https://skillicons.dev/icons?i=tailwind&theme=dark" height="44" alt="Tailwind CSS" /></a>
+<a href="https://bun.sh" title="Bun"><img src="https://skillicons.dev/icons?i=bun&theme=dark" height="44" alt="Bun" /></a>
 
 ---
 
-<!-- ============ Skill Set ============ -->
-## 🛠️ Skill Set
+### Contributions
 
-<div align="center">
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
-![R3F](https://img.shields.io/badge/React_Three_Fiber-black?style=for-the-badge&logo=three.js&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,ts,threejs,tailwind,bun&theme=dark" alt="skills" />
-
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/output/github-contribution-grid-snake.svg" />
+</picture>
 
 ---
 
-<!-- ============ GitHub Stats ============ -->
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=kiryuin0121&show_icons=true&theme=react&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=61DAFB&icon_color=61DAFB" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kiryuin0121&layout=compact&langs_count=8&theme=react&hide_border=true&bg_color=0D1117&title_color=61DAFB" />
-
-</div>
-
-<div align="center">
-
-![GitHub Streak](https://streak-stats.demolab.com/?user=kiryuin0121&theme=react&hide_border=true&background=0D1117&ring=61DAFB&fire=61DAFB&currStreakLabel=61DAFB)
-
-</div>
-
----
-
-<!-- ============ Trophy ============ -->
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=kiryuin0121&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
-<!-- ============ Activity Graph ============ -->
-## 📈 Contribution Graph
-
-<div align="center">
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kiryuin0121&theme=react-dark&hide_border=true&bg_color=0D1117&color=61DAFB&line=61DAFB&point=FFFFFF)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-</div>
-
----
-
-<!-- ============ Snake ============ -->
-<!--
-  スネークゲームを動かすには GitHub Actions の設定が必要です。
-  リポジトリに .github/workflows/snake.yml を作成してください（下記コメント参照）。
--->
-## 🐍 Contribution Snake
-
-<div align="center">
-
-![Snake animation](https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/output/github-contribution-grid-snake-dark.svg)
-
-</div>
-
----
-
-<!-- ============ Connect ============ -->
-## 🌐 Connect with Me
-
-<div align="center">
-
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/kiryuin0121)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kiryuin0121)
-
-</div>
-
-<div align="center">
-<br/>
-<img src="https://capsule-render.vercel.app/api?type=waving&color=61DAFB&height=120&section=footer" width="100%"/>
-</div>
+<sub><a href="https://github.com/kiryuin0121">→ &nbsp;github.com/kiryuin0121</a></sub>
