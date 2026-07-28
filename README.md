@@ -1,6 +1,8 @@
 <!-- README.md — 自分のユーザー名と同名のリポジトリ直下に配置してください -->
 <!-- profile.svg も同じリポジトリの assets/ に置いてください -->
 
+<img src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/main/assets/footer.png" alt="footer" width="100%" height="200" style="object-fit: cover;" />
+
 ### Hi, I'm kiryuin0121 &nbsp;👋
 
 <!-- profile: EN line1 → EN line2 (held) → JP line1 → JP line2 (stops on JP) -->
@@ -75,6 +77,10 @@
 
 ---
 
-<sub><a href="https://github.com/kiryuin0121">→ &nbsp;github.com/kiryuin0121</a></sub>
+### 🥒 My Links
 
-<img src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/main/assets/footer.png" alt="footer" width="680" />
+<img src="https://skillicons.dev/icons?i=gmail&theme=dark" height="20" alt="Gmail" valign="middle" />&nbsp;&nbsp;[kiryuin0121@gmail.com](mailto:kiryuin0121@gmail.com)
+<br />
+<img src="https://skillicons.dev/icons?i=github&theme=dark" height="20" alt="GitHub" valign="middle" />&nbsp;&nbsp;[github.com/kiryuin0121](https://github.com/kiryuin0121)
+
+---
