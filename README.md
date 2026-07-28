@@ -102,9 +102,11 @@
 
 <br/>
 
-<img src="https://skillicons.dev/icons?i=gmail&theme=dark" height="20" alt="Gmail" valign="middle" />&nbsp;&nbsp;[kiryuin0121@gmail.com](mailto:kiryuin0121@gmail.com)
+<img src="https://skillicons.dev/icons?i=gmail&theme=dark" height="20" alt="Gmail" valign="middle" />&nbsp;&nbsp;[Email](mailto:kiryuin0121@gmail.com)
 <br />
-<img src="https://skillicons.dev/icons?i=github&theme=dark" height="20" alt="GitHub" valign="middle" />&nbsp;&nbsp;[github.com/kiryuin0121](https://github.com/kiryuin0121)
+<img src="https://skillicons.dev/icons?i=github&theme=dark" height="20" alt="GitHub" valign="middle" />&nbsp;&nbsp;[GitHub](https://github.com/kiryuin0121)
+<br />
+💼&nbsp;&nbsp;[Wantedly](https://www.wantedly.com/id/kiryuin0121)
 
 <br/>
 
