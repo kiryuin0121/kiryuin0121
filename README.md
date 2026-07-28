@@ -1,7 +1,7 @@
 <!-- README.md — 自分のユーザー名と同名のリポジトリ直下に配置してください -->
 <!-- profile.svg も同じリポジトリの assets/ に置いてください -->
 
-### Hi, I'm kiryuin0121 &nbsp;<img src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/main/assets/wave.svg" width="24" height="24" alt="👋" />
+### Hi, I'm kiryuin0121 &nbsp;👋
 
 <!-- profile: EN line1 → EN line2 (held) → JP line1 → JP line2 (stops on JP) -->
 <picture>
