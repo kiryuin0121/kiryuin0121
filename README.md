@@ -77,4 +77,4 @@
 
 <sub><a href="https://github.com/kiryuin0121">→ &nbsp;github.com/kiryuin0121</a></sub>
 
-<img src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/main/assets/footer.png" alt="footer" />
+<img src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/main/assets/footer.png" alt="footer" width="680" />
