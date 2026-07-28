@@ -1,5 +1,6 @@
 // GitHub の Contributions カレンダーとほぼ同じ見た目の SVG を生成する。
 // 月ラベル・曜日ラベル・凡例・日付ツールチップ付き。light / dark の 2 枚を出力。
+// カレンダー上をヘビが蛇行して進み、通過したマスを食べる SMIL アニメーション入り。
 
 import { mkdir, writeFile } from "node:fs/promises";
 import { dirname } from "node:path";
@@ -21,6 +22,7 @@ const THEMES = {
     bg: "#ffffff",
     cellBorder: "rgba(27,31,35,0.06)",
     levels: ["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"],
+    snake: "#6e5494",
   },
   dark: {
     text: "#9198a1",
@@ -29,6 +31,7 @@ const THEMES = {
     bg: "#0d1117",
     cellBorder: "rgba(240,246,252,0.1)",
     levels: ["#151b23", "#033a16", "#196c2e", "#2ea043", "#56d364"],
+    snake: "#a371f7",
   },
 };
 
@@ -55,6 +58,11 @@ const LABEL_W = 30; // 曜日ラベル列
 const MONTH_H = 15; // 月ラベル行
 const HEAD_H = 26; // 「N contributions in the last year」
 const LEGEND_H = 26;
+
+// アニメーション
+const STEP_SEC = 0.07; // 1 マス進むのにかかる秒数
+const SNAKE_LEN = 5; // ヘビの長さ（マス）
+const TAIL_STEPS = 10; // 食べ終わったあと画面外へ抜けるぶん
 
 async function fetchCalendar() {
   const query = `
@@ -151,22 +159,64 @@ function render(calendar, theme) {
     );
   });
 
-  // セル本体
+  // ヘビの通り道（左から右へ、列ごとに上下を折り返す蛇行）
+  const order = new Map(); // "wi:row" -> 通過順
+  const pathPoints = [];
+  weeks.forEach((_, wi) => {
+    for (let r = 0; r < 7; r++) {
+      const row = wi % 2 === 0 ? r : 6 - r;
+      order.set(`${wi}:${row}`, pathPoints.length);
+      pathPoints.push([gridX + wi * STEP + CELL / 2, gridY + row * STEP + CELL / 2]);
+    }
+  });
+  const lastRow = (weeks.length - 1) % 2 === 0 ? 6 : 0;
+  for (let i = 1; i <= TAIL_STEPS; i++) {
+    pathPoints.push([gridX + (weeks.length - 1 + i) * STEP + CELL / 2, gridY + lastRow * STEP + CELL / 2]);
+  }
+  const segments = pathPoints.length - 1;
+  const dur = (segments * STEP_SEC).toFixed(2);
+  const clamp01 = (v) => Math.min(0.999, Math.max(0.001, v));
+
+  // セル本体（ヘビが通過した瞬間に空マスへ変わる）
   weeks.forEach((week, wi) => {
     week.contributionDays.forEach((day) => {
       const d = new Date(`${day.date}T00:00:00Z`);
       const row = d.getUTCDay();
       const n = day.contributionCount;
+      const level = LEVEL_OF[day.contributionLevel] ?? 0;
       const tip = `${n === 0 ? "No contributions" : `${n} contribution${n === 1 ? "" : "s"}`} on ${
         MONTHS_FULL[d.getUTCMonth()]
       } ${d.getUTCDate()}, ${d.getUTCFullYear()}`;
+      const eatAt = clamp01(order.get(`${wi}:${row}`) / segments).toFixed(5);
+      const anim =
+        level === 0
+          ? ""
+          : `<animate attributeName="fill" calcMode="discrete" dur="${dur}s" repeatCount="indefinite" ` +
+            `values="${t.levels[level]};${t.levels[0]}" keyTimes="0;${eatAt}"/>`;
       parts.push(
         `<rect x="${gridX + wi * STEP}" y="${gridY + row * STEP}" width="${CELL}" height="${CELL}" rx="2" ry="2" ` +
-          `fill="${t.levels[LEVEL_OF[day.contributionLevel] ?? 0]}" stroke="${t.cellBorder}">` +
-          `<title>${esc(tip)}</title></rect>`
+          `fill="${t.levels[level]}" stroke="${t.cellBorder}">` +
+          `<title>${esc(tip)}</title>${anim}</rect>`
       );
     });
   });
+
+  // ヘビ本体
+  const pathD = `M${pathPoints.map(([x, y]) => `${x},${y}`).join("L")}`;
+  parts.push(`<path id="snake-path" d="${pathD}" fill="none" stroke="none"/>`);
+  for (let i = 0; i < SNAKE_LEN; i++) {
+    const size = CELL - i * 0.9;
+    const off = -size / 2;
+    // 先頭を最も進んだ状態にするため、後続ほど負の begin を小さくする
+    const begin = (-(SNAKE_LEN - i) * STEP_SEC).toFixed(3);
+    parts.push(
+      `<rect x="${off.toFixed(2)}" y="${off.toFixed(2)}" width="${size.toFixed(2)}" height="${size.toFixed(
+        2
+      )}" rx="${(size / 3).toFixed(2)}" fill="${t.snake}" opacity="${(1 - i * 0.13).toFixed(2)}">` +
+        `<animateMotion dur="${dur}s" begin="${begin}s" repeatCount="indefinite" calcMode="linear">` +
+        `<mpath href="#snake-path" xlink:href="#snake-path"/></animateMotion></rect>`
+    );
+  }
 
   // 凡例
   const legendY = gridY + gridH + 18;
@@ -181,7 +231,7 @@ function render(calendar, theme) {
   });
   parts.push(`<text x="${moreX}" y="${legendY + 9}" class="lbl" text-anchor="end">More</text>`);
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="${esc(
+  return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="${esc(
     `${calendar.totalContributions} contributions in the last year`
   )}">
   <style>

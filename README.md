@@ -26,11 +26,6 @@
   <img alt="contribution calendar" src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/output/contribution-calendar.svg" />
 </picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/output/github-contribution-grid-snake-dark.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/output/github-contribution-grid-snake.svg" />
-</picture>
-
 ---
 
 <sub><a href="https://github.com/kiryuin0121">→ &nbsp;github.com/kiryuin0121</a></sub>
