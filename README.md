@@ -80,6 +80,18 @@
 
 <br/>
 
+### 📜 Certifications
+
+<br/>
+
+🎓&nbsp;&nbsp;基本情報技術者試験 (2025.07)
+
+<br/>
+
+---
+
+<br/>
+
 ### 💻 Contributions
 
 <br/>
@@ -91,18 +103,6 @@
 
 <br/>
 
-
-<br/>
-
----
-
-<br/>
-
-### 📜 Certifications
-
-<br/>
-
-🎓&nbsp;&nbsp;基本情報技術者試験 (2025.07)
 
 <br/>
 
