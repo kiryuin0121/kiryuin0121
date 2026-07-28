@@ -98,6 +98,18 @@
 
 <br/>
 
+### 📜 Certifications
+
+<br/>
+
+🎓&nbsp;&nbsp;基本情報技術者試験 (2025.07)
+
+<br/>
+
+---
+
+<br/>
+
 ### 🥒 My Links
 
 <br/>
