@@ -1,45 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="752" height="220" viewBox="0 0 752 220" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="805" height="158" viewBox="0 0 805 158" fill="none">
   <style>text{white-space:pre}</style>
-<g opacity="1"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5014;0.5300;1" dur="21.02s" fill="freeze"/>
-  <clipPath id="c_en0"><rect x="8" y="10" width="0" height="28">
-    <animate attributeName="width" values="0;0;752;752" keyTimes="0;0.0143;0.0866;1" dur="21.02s" fill="freeze"/>
+<g opacity="1"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5121;0.5372;1" dur="21.890000000000004s" fill="freeze"/>
+  <clipPath id="c_en0"><rect x="8" y="12" width="0" height="26">
+    <animate attributeName="width" values="0;0;805;805" keyTimes="0;0.0183;0.0914;1" dur="21.890000000000004s" fill="freeze"/>
   </rect></clipPath>
-  <text x="8" y="30" clip-path="url(#c_en0)" font-family="'M PLUS Rounded 1c','Hiragino Sans','Segoe UI',sans-serif" font-size="20" font-weight="500" fill="#E6EDF3">A student at HAL Osaka, Faculty of IT.</text>
-  <clipPath id="c_en1"><rect x="8" y="40" width="0" height="28">
-    <animate attributeName="width" values="0;0;752;752" keyTimes="0;0.0961;0.2179;1" dur="21.02s" fill="freeze"/>
+  <text x="8" y="30" clip-path="url(#c_en0)" font-family="'M PLUS Rounded 1c','Hiragino Sans','Segoe UI',sans-serif" font-size="18" font-weight="500" fill="#E6EDF3">A student at HAL Osaka, Faculty of IT.</text>
+  <clipPath id="c_en1"><rect x="8" y="42" width="0" height="26">
+    <animate attributeName="width" values="0;0;805;805" keyTimes="0;0.0982;0.2211;1" dur="21.890000000000004s" fill="freeze"/>
   </rect></clipPath>
-  <text x="8" y="60" clip-path="url(#c_en1)" font-family="'M PLUS Rounded 1c','Hiragino Sans','Segoe UI',sans-serif" font-size="20" font-weight="500" fill="#E6EDF3">Building websites and apps with React since around January 2025.</text>
-  <clipPath id="c_en2"><rect x="8" y="70" width="0" height="28">
-    <animate attributeName="width" values="0;0;752;752" keyTimes="0;0.2274;0.3111;1" dur="21.02s" fill="freeze"/>
+  <text x="8" y="60" clip-path="url(#c_en1)" font-family="'M PLUS Rounded 1c','Hiragino Sans','Segoe UI',sans-serif" font-size="18" font-weight="500" fill="#E6EDF3">Building websites and apps with React since around January 2025.</text>
+  <clipPath id="c_en2"><rect x="8" y="72" width="0" height="26">
+    <animate attributeName="width" values="0;0;805;805" keyTimes="0;0.2280;0.3106;1" dur="21.890000000000004s" fill="freeze"/>
   </rect></clipPath>
-  <text x="8" y="90" clip-path="url(#c_en2)" font-family="'M PLUS Rounded 1c','Hiragino Sans','Segoe UI',sans-serif" font-size="20" font-weight="500" fill="#E6EDF3">Interested in 3D web content and media art —</text>
-  <clipPath id="c_en3"><rect x="8" y="100" width="0" height="28">
-    <animate attributeName="width" values="0;0;752;752" keyTimes="0;0.3206;0.4253;1" dur="21.02s" fill="freeze"/>
+  <text x="8" y="90" clip-path="url(#c_en2)" font-family="'M PLUS Rounded 1c','Hiragino Sans','Segoe UI',sans-serif" font-size="18" font-weight="500" fill="#E6EDF3">Interested in 3D web content and media art,</text>
+  <clipPath id="c_en3"><rect x="8" y="102" width="0" height="26">
+    <animate attributeName="width" values="0;0;805;805" keyTimes="0;0.3175;0.4230;1" dur="21.890000000000004s" fill="freeze"/>
   </rect></clipPath>
-  <text x="8" y="120" clip-path="url(#c_en3)" font-family="'M PLUS Rounded 1c','Hiragino Sans','Segoe UI',sans-serif" font-size="20" font-weight="500" fill="#E6EDF3">now exploring visual expression with React Three Fiber.</text></g>
-<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5300;0.5310;1" dur="21.02s" fill="freeze"/>
-  <clipPath id="c_jp0"><rect x="8" y="10" width="0" height="28">
-    <animate attributeName="width" values="0;0;752;752" keyTimes="0;0.5442;0.5842;1" dur="21.02s" fill="freeze"/>
+  <text x="8" y="120" clip-path="url(#c_en3)" font-family="'M PLUS Rounded 1c','Hiragino Sans','Segoe UI',sans-serif" font-size="18" font-weight="500" fill="#E6EDF3">now exploring visual expression with React Three Fiber.</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5372;0.5382;1" dur="21.890000000000004s" fill="freeze"/>
+  <clipPath id="c_jp0"><rect x="8" y="12" width="0" height="26">
+    <animate attributeName="width" values="0;0;805;805" keyTimes="0;0.5532;0.5934;1" dur="21.890000000000004s" fill="freeze"/>
   </rect></clipPath>
-  <text x="8" y="30" clip-path="url(#c_jp0)" font-family="'M PLUS Rounded 1c','Hiragino Sans','Segoe UI',sans-serif" font-size="20" font-weight="500" fill="#E6EDF3">HAL大阪 IT学部 に所属する学生です。</text>
-  <clipPath id="c_jp1"><rect x="8" y="40" width="0" height="28">
-    <animate attributeName="width" values="0;0;752;752" keyTimes="0;0.5937;0.6318;1" dur="21.02s" fill="freeze"/>
+  <text x="8" y="30" clip-path="url(#c_jp0)" font-family="'M PLUS Rounded 1c','Hiragino Sans','Segoe UI',sans-serif" font-size="18" font-weight="500" fill="#E6EDF3">HAL大阪 IT学部 に所属する学生です。</text>
+  <clipPath id="c_jp1"><rect x="8" y="42" width="0" height="26">
+    <animate attributeName="width" values="0;0;805;805" keyTimes="0;0.6003;0.6926;1" dur="21.890000000000004s" fill="freeze"/>
   </rect></clipPath>
-  <text x="8" y="60" clip-path="url(#c_jp1)" font-family="'M PLUS Rounded 1c','Hiragino Sans','Segoe UI',sans-serif" font-size="20" font-weight="500" fill="#E6EDF3">2025年の1月頃からReactを用いた</text>
-  <clipPath id="c_jp2"><rect x="8" y="70" width="0" height="28">
-    <animate attributeName="width" values="0;0;752;752" keyTimes="0;0.6413;0.6946;1" dur="21.02s" fill="freeze"/>
+  <text x="8" y="60" clip-path="url(#c_jp1)" font-family="'M PLUS Rounded 1c','Hiragino Sans','Segoe UI',sans-serif" font-size="18" font-weight="500" fill="#E6EDF3">2025年の1月頃からReactを用いたWebサイトやアプリケーションの開発に取り組んでいます。</text>
+  <clipPath id="c_jp2"><rect x="8" y="72" width="0" height="26">
+    <animate attributeName="width" values="0;0;805;805" keyTimes="0;0.6994;0.7647;1" dur="21.890000000000004s" fill="freeze"/>
   </rect></clipPath>
-  <text x="8" y="90" clip-path="url(#c_jp2)" font-family="'M PLUS Rounded 1c','Hiragino Sans','Segoe UI',sans-serif" font-size="20" font-weight="500" fill="#E6EDF3">Webサイトやアプリケーションの開発に取り組んでいます。</text>
-  <clipPath id="c_jp3"><rect x="8" y="100" width="0" height="28">
-    <animate attributeName="width" values="0;0;752;752" keyTimes="0;0.7041;0.7688;1" dur="21.02s" fill="freeze"/>
+  <text x="8" y="90" clip-path="url(#c_jp2)" font-family="'M PLUS Rounded 1c','Hiragino Sans','Segoe UI',sans-serif" font-size="18" font-weight="500" fill="#E6EDF3">3DCGを用いたWebコンテンツやメディアアートに興味をもっており、</text>
+  <clipPath id="c_jp3"><rect x="8" y="102" width="0" height="26">
+    <animate attributeName="width" values="0;0;805;805" keyTimes="0;0.7716;0.8561;1" dur="21.890000000000004s" fill="freeze"/>
   </rect></clipPath>
-  <text x="8" y="120" clip-path="url(#c_jp3)" font-family="'M PLUS Rounded 1c','Hiragino Sans','Segoe UI',sans-serif" font-size="20" font-weight="500" fill="#E6EDF3">3DCGを用いたWebコンテンツやメディアアートに興味をもっており、</text>
-  <clipPath id="c_jp4"><rect x="8" y="130" width="0" height="28">
-    <animate attributeName="width" values="0;0;752;752" keyTimes="0;0.7783;0.8240;1" dur="21.02s" fill="freeze"/>
-  </rect></clipPath>
-  <text x="8" y="150" clip-path="url(#c_jp4)" font-family="'M PLUS Rounded 1c','Hiragino Sans','Segoe UI',sans-serif" font-size="20" font-weight="500" fill="#E6EDF3">最近はReact Three Fiberを用いた</text>
-  <clipPath id="c_jp5"><rect x="8" y="160" width="0" height="28">
-    <animate attributeName="width" values="0;0;752;752" keyTimes="0;0.8335;0.8716;1" dur="21.02s" fill="freeze"/>
-  </rect></clipPath>
-  <text x="8" y="180" clip-path="url(#c_jp5)" font-family="'M PLUS Rounded 1c','Hiragino Sans','Segoe UI',sans-serif" font-size="20" font-weight="500" fill="#E6EDF3">ビジュアル表現の探求に力を注いでいます。</text></g>
+  <text x="8" y="120" clip-path="url(#c_jp3)" font-family="'M PLUS Rounded 1c','Hiragino Sans','Segoe UI',sans-serif" font-size="18" font-weight="500" fill="#E6EDF3">最近はReact Three Fiberを用いたビジュアル表現の探求に力を注いでいます。</text></g>
 </svg>
