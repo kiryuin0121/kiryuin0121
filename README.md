@@ -51,6 +51,9 @@
 <sub>2026.03</sub>
 </td>
 
+</tr>
+<tr>
+
 <td align="center" width="33%">
 <a href="https://magicalmirai.com/2026/procon/2026_finalist_applications/007_Mizuumi_no_Utahime/"><img src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/main/assets/Mizuumi_no_Utahime.png" width="100%" alt="湖のうたひめ" /></a><br />
 <b>マジカルミライ 2026 プログラミング・コンテスト</b><br />
