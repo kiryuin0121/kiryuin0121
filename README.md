@@ -23,6 +23,45 @@
 
 ---
 
+### Contest Achievements
+
+<!-- カードを追加する場合は <td> ブロックを1つコピーして、画像・リポジトリ名・コンテスト名・賞・年月を差し替える -->
+<!-- サムネイルは assets/<リポジトリ名>.png に配置 -->
+<table>
+<tr>
+
+<td align="center" width="33%">
+<a href="https://github.com/kiryuin0121/DEATHNOTE">
+<img src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/main/assets/DEATHNOTE.png" width="100%" alt="DEATHNOTE" /><br />
+<b>3校舎合同コンテスト</b><br />
+🥈 銀賞<br />
+<sub>2025.10</sub>
+</a>
+</td>
+
+<td align="center" width="33%">
+<a href="https://github.com/kiryuin0121/SAUVAGE">
+<img src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/main/assets/SAUVAGE.webp" width="100%" alt="SAUVAGE" /><br />
+<b>3校舎合同コンテスト</b><br />
+🥈 銀賞<br />
+<sub>2026.03</sub>
+</a>
+</td>
+
+<td align="center" width="33%">
+<a href="https://github.com/kiryuin0121/HALLO">
+<img src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/main/assets/HALLO.png" width="100%" alt="HALLO" /><br />
+<b>HAL EVENT WEEK 2026</b><br />
+🥇 金賞<br />
+<sub>2026.03</sub>
+</a>
+</td>
+
+</tr>
+</table>
+
+---
+
 ### Contributions
 
 <picture>
