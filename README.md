@@ -25,6 +25,7 @@
 <a href="https://r3f.docs.pmnd.rs" title="React Three Fiber"><img src="https://skillicons.dev/icons?i=threejs&theme=dark" height="44" alt="React Three Fiber" /></a>
 <a href="https://tailwindcss.com" title="Tailwind CSS"><img src="https://skillicons.dev/icons?i=tailwind&theme=dark" height="44" alt="Tailwind CSS" /></a>
 <a href="https://www.prisma.io" title="Prisma"><img src="https://skillicons.dev/icons?i=prisma&theme=dark" height="44" alt="Prisma" /></a>
+<a href="https://hono.dev" title="Hono"><img src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/main/assets/hono.svg" height="44" alt="Hono" /></a>
 <a href="https://bun.sh" title="Bun"><img src="https://skillicons.dev/icons?i=bun&theme=dark" height="44" alt="Bun" /></a>
 
 <br/>
