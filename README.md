@@ -3,7 +3,7 @@
 
 <img src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/main/assets/header.png" alt="header" width="100%" />
 
-### Hi, I'm KiryuYokohata(@kiryuin0121)&nbsp;👋
+### Hi, I'm KiryuYokohata(@kiryuin0121)&nbsp;<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="25" height="25" />
 
 <!-- profile: EN line1 → EN line2 (held) → JP line1 → JP line2 (stops on JP) -->
 <picture>
@@ -15,7 +15,7 @@
 
 <br/>
 
-### 💪 Tech Stack
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Flexed%20Biceps.png" alt="Flexed Biceps" width="25" height="25" /> Tech Stack
 
 <br/>
 
