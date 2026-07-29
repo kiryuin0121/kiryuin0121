@@ -110,7 +110,7 @@
 
 <br/>
 
-### 🥒 My Links
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Sauropod.png" alt="Sauropod" width="25" height="25" /> My Links
 
 <br/>
 
