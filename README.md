@@ -72,6 +72,13 @@
 <sub>2026.07</sub>
 </td>
 
+<td align="center" width="33%">
+<a href="https://github.com/kiryuin0121/kachuzechu-clinic"><img src="https://raw.githubusercontent.com/kiryuin0121/kiryuin0121/main/assets/kachuzechu-clinic.png" width="100%" alt="かつぜちゅクリニック" /></a><br />
+<b>3校舎合同コンテスト(2年生前期) 「かつぜちゅクリニック」</b><br />
+🏅 技術力省<br />
+<sub>2026.11</sub>
+</td>
+
 </tr>
 </table>
 
